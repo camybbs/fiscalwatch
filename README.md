@@ -11,3 +11,19 @@ Sem monitoramento consistente, a equipe muitas vezes só descobre o problema qua
 ## Público-alvo
 
 Pessoas desenvolvedoras, profissionais de infraestrutura/SRE e equipes técnicas que precisam observar dependências de serviços fiscais.
+
+## Objetivos
+
+- Verificar periodicamente se um serviço responde dentro de critérios configuráveis.
+- Registrar horário, resultado, código HTTP, duração e mensagem de erro de cada verificação.
+- Exibir o estado atual e o histórico dos serviços monitorados.
+- Abrir incidentes quando regras de falha forem atendidas e notificar responsáveis (inicialmente via Discord).
+- Calcular indicadores operacionais, evoluindo para SLI, SLO e error budget.
+- Manter a aplicação testável, documentada e reproduzível em ambiente local.
+
+## Fora do escopo
+
+- Emitir documentos fiscais ou substituir sistemas de gestão fiscal.
+- Contornar autenticação, limites ou mecanismos de proteção de serviços externos.
+- Armazenar certificados, credenciais ou dados fiscais reais.
+- Executar varreduras ou testes de carga contra serviços de terceiros sem autorização.
