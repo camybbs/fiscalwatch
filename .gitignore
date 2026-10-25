@@ -1,0 +1,20 @@
+# Ambiente virtual Python (recriado a partir do requirements.txt)
+.venv/
+
+# Segredos e configuração local: NUNCA versionar
+.env
+
+# Arquivos gerados pelo Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Bancos de dados locais (a partir do MVP 2)
+*.db
+*.sqlite3
+
+# Editores e sistema operacional
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
