@@ -27,3 +27,34 @@ Pessoas desenvolvedoras, profissionais de infraestrutura/SRE e equipes técnicas
 - Contornar autenticação, limites ou mecanismos de proteção de serviços externos.
 - Armazenar certificados, credenciais ou dados fiscais reais.
 - Executar varreduras ou testes de carga contra serviços de terceiros sem autorização.
+
+
+## Requisitos
+
+- Python 3.10 ou superior
+- Git
+
+## Preparando o ambiente
+
+```powershell
+git clone https://github.com/SEU-USUARIO/fiscalwatch.git
+cd fiscalwatch
+
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1          # Linux/macOS: source .venv/bin/activate
+
+pip install -r requirements-dev.txt
+Copy-Item .env.example .env           # Linux/macOS: cp .env.example .env
+```
+
+## Roadmap
+
+- [x] MVP 0: base do projeto (repositório, documentação, ambiente)
+- [ ] MVP 1: monitor HTTP
+- [ ] MVP 2: histórico
+- [ ] MVP 3: agendamento
+- [ ] MVP 4: API e dashboard
+- [ ] MVP 5: alertas
+- [ ] MVP 6: observabilidade
+- [ ] MVP 7: entrega (Docker e CI/CD)
+- [ ] MVP 8: práticas SRE
