@@ -37,7 +37,7 @@ Pessoas desenvolvedoras, profissionais de infraestrutura/SRE e equipes técnicas
 ## Preparando o ambiente
 
 ```powershell
-git clone https://github.com/SEU-USUARIO/fiscalwatch.git
+git clone https://github.com/camybbs/fiscalwatch.git
 cd fiscalwatch
 
 python -m venv .venv
